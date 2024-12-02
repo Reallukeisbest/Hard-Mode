@@ -1,0 +1,82 @@
+{
+    "geode": "4.0.1",
+    "gd": {
+        "win": "2.2074",
+        "android": "2.2074",
+        "mac": "2.2074",
+        "ios": "2.2074"
+    },
+    "id": "realluke.hard_mode",
+    "name": "Hard Mode",
+    "version": "v1.0.0",
+    "developer": "Realluke",
+    "description": "A mod that visually makes the game harder.",
+    "settings": {
+        "screenSettingsTitle": {
+            "type": "title",
+            "name": "Level/Screen Settings"
+        },
+        "spinScreen": {
+            "type": "bool",
+            "name": "Enable Spin",
+            "description": "Spins the screen.",
+            "default": true
+        },
+        "scaleScreen": {
+            "type": "bool",
+            "name": "Enable Scale",
+            "description": "Zooms into/out of the screen.",
+            "default": true
+        },
+        "skewXScreen": {
+            "type": "bool",
+            "name": "Enable Skew X",
+            "description": "Skews the screen horizontally.",
+            "default": true
+        },
+        "skewYScreen": {
+            "type": "bool",
+            "name": "Enable Skew Y",
+            "description": "Skews the screen vertically.",
+            "default": true
+        },
+        "playerSettingsTitle": {
+            "type": "title",
+            "name": "Player Settings"
+        },
+        "scalePlayer": {
+            "type": "bool",
+            "name": "Enable Scale",
+            "description": "Increases and decreases the size of the player.",
+            "default": true
+        },
+        "fadePlayer": {
+            "type": "bool",
+            "name": "Enable Fade",
+            "description": "Increases and decreases the opacity the player.",
+            "default": true
+        },
+        "spinPlayer": {
+            "type": "bool",
+            "name": "Enable Spin (warning ->)",
+            "description": "Spins the player. Warning: this option rotates the player's hitbox (might make some levels impossible).",
+            "default": true
+        },
+        "other": {
+            "type": "title",
+            "name": "Other Settings"
+        },
+        "randomPause": {
+            "type": "bool",
+            "name": "Random Pause",
+            "description": "Pauses the screen randomly.",
+            "default": true
+        },
+        "disableShaders": {
+            "type": "bool",
+            "name": "Auto Disable Shaders (warning ->)",
+            "description": "Automatically disables all shaders for incompatible options. Warning: this option might make some levels easier.",
+            "default": false
+        }
+    }
+}
