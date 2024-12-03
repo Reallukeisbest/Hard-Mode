@@ -78,5 +78,9 @@
             "description": "Automatically disables all shaders for incompatible options. Warning: this option might make some levels easier.",
             "default": false
         }
-    }
+    },
+    "tags": [
+        "joke",
+        "offline"
+    ]
 }
